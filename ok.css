@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.purchase-confirmation {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.purchase-confirmation h2 {
+    margin-bottom: 20px;
+}
+
+.product-details {
+    margin-bottom: 20px;
+}
+
+.product-details h3 {
+    margin-bottom: 10px;
+}
+
+.confirm-button {
+    position: 50px 50px 50px 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d5bdaf;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.confirm-button:hover {
+    background-color: #000;
+}
+
+header {
+    background-color: #d5bdaf;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+ul {
+    background-color: #d5bdaf;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+}
+
+li {
+    margin: 5px;
+    float: right;
+    padding-left: 20px;
+    display: flex;
+    font-size: x-large;
+}
+
+li a {
+    color: #fff;
+    display: block;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    /* background-color: #d4a373; */
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.First {
+    color: #fff;
+    text-decoration: none;
+}
+
+.head .Second {
+    display: none;
+}
+
+.head:hover .Second {
+    display: inline;
+    text-decoration: none;
+    color: #000;
+}
+footer{background-color: #d5bdaf;
+    color: #fff;
+    margin-top: 270px;
+    text-align: center;
+    padding: 5px 0; 
+    position: relative;
+    bottom: 0;
+}
+footer:hover{color: #000;}

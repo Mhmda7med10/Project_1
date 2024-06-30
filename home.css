@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body{
+    
+    /* background-color: #d5bdaf; */
+
+/* The Nav*/
+
+ul {
+    background-color: #d5bdaf;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    position: static;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+}
+
+li {
+    margin: 5px;
+    float: right;
+    padding-left: 20px;
+    display: flex;
+    font-size: x-large;
+}
+
+li a {
+    color: #fff;
+    display: block;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+    /* background-color: #d4a373; */
+    width: 100%;
+    height: 100%;
+    color: #000;
+
+}
+
+/*###############################################*/
+.center {
+    position: absolute;
+    text-align: center;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #000; */
+    color: #fff;
+    font-size: 75px;
+    box-shadow: gray;
+}
+
+/* The main header */
+header,footer {
+    background-color: #d5bdaf;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}footer:hover{color: #000;}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.First {
+    color: #fff;
+    text-decoration: none;
+}
+
+.head .Second {
+    display: none;
+    color: #fff;
+}
+
+.head:hover .Second {
+    display: inline;
+    text-decoration: none;
+    color: #000;
+}
+/* Section */
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prodect {
+    margin: 20px;
+    background-color: #d5bdaf;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #000;
+}.prodect img{
+    width: 100px;
+    height: 200px;
+}.prodect a{
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.prodect-1{
+    margin: 20px;
+    background-color: #d5bdaf;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #000;}
+.prodect-1 img{
+    padding: 5px;
+    height: 190px;
+    width: 100px;
+}.prodect-1 a{
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
